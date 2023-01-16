@@ -4,6 +4,7 @@ const { connection } = require('./configs/db');
 const { postRoute } = require('./routes/postRoute');
 const { userRoute } = require('./routes/userRoute');
 const app = express();
+require('dotenv').config()
 
 const port = process.env.port;
 
